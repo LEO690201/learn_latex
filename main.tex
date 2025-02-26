@@ -3,6 +3,7 @@
 \usepackage[utf8]{inputenc}
 %语言设置
 \usepackage{amsmath}
+\usepackage{amsthm}
 \usepackage{amssymb}
 \usepackage{amsfonts}
 
@@ -39,12 +40,24 @@
 
 \usepackage[backend=biber, style=numeric]{biblatex} % 选择你喜欢的样式
 \addbibresource{references.bib} % 你的参考文献数据库文件
+% 定义各种定理环境
+\newtheorem{theorem}{定理}[section]
+\newtheorem{lemma}{引理}[section]
+\newtheorem{example}{例}[section]
+\newtheorem{proposition}{命题}[section]
+\newtheorem{corollary}{推论}[section]
+\newtheorem{definition}{定义}[section]
+\newtheorem{problem}{问题}[section]
+\newtheorem{exercise}{习题}[section]
+\newtheorem{note}{注记}[section]
+\newtheorem{remark}{备注}[section]
 
 
 
-\title{Latex学习笔记}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{数学分析A2 第一周作业}
 
-\author{胡广理}
+\author{胡广理 PB24010500}
 \date{2025.2.25}
 
 
